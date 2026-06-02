@@ -1,0 +1,47 @@
+# =============================================================================
+# AWARDS & FUNDING PLAN — data source (Dr. Erika C. Freeman)
+# Drives AWARDS-AND-FUNDING-PLAN.md via scripts/refresh_plan.py (run weekly).
+#
+# Each item: name, type (funding|award|paper|service), and ONE timing field:
+#   deadline: "YYYY-MM-DD" (one-off)   |   annual_month: 1-12 (recurring; next
+#   occurrence computed)               |   rolling: true (no fixed date)
+# Optional: status, nomination (true if it needs a nominator), note, link.
+# Keep deadlines current; the script flags what falls in the next 14 / 90 days.
+# =============================================================================
+
+items:
+  # ---- FUNDING (her real targets; see grant_targets.yaml / pipeline.yaml) ----
+  - {name: "DFG Sachbeihilfe — TRACE (Lake Stechlin)", type: funding, deadline: "2026-09-30", status: in_prep, note: "ON-TIME tenure funding-bar vehicle (≥€100k+personnel); Co-PI Lewandowski"}
+  - {name: "ERC Starting Grant — WATERMARK (landscape)", type: funding, deadline: "2026-10-14", status: drafting, note: "Confirm exact 2026 call date on F&T Portal"}
+  - {name: "ERC Starting Grant — ECOMOL (theory-test)", type: funding, annual_month: 10, status: drafting, note: "~2027 round"}
+  - {name: "DFG Emmy Noether — FreshDreaMS (AI/DOM)", type: funding, rolling: true, status: drafting, note: "No fixed deadline; confirm ENP eligibility vs IGB GL role FIRST"}
+  - {name: "Leibniz Junior Research Group — VITALS", type: funding, deadline: "2028-03-31", status: planning, note: "LAST eligible round; IGB submits ≤2/yr — engage director now"}
+  - {name: "SNSF Starting Grant (Swiss host)", type: funding, deadline: "2027-05-01", status: planning, note: "Swiss citizen; decide Swiss host"}
+  - {name: "D-A-CH lead-agency (DFG+SNSF/FWF)", type: funding, rolling: true, status: idea, note: "Via Altermatt/UZH; no relocation"}
+  - {name: "HFSP Research Grant — Early Career (LOI)", type: funding, annual_month: 3, status: idea, note: "Needs intercontinental team"}
+  - {name: "Branco Weiss Fellowship", type: funding, deadline: "2027-01-15", status: verify, note: "VERIFY position-eligibility first (faculty-equivalent rule)"}
+  - {name: "Water4All JTC (ecosystems & biodiversity)", type: funding, deadline: "2027-09-01", status: idea, note: "Build the transnational consortium now"}
+  - {name: "Biodiversa+ JTC (freshwater biodiversity)", type: funding, annual_month: 11, status: idea, note: "Next annual call"}
+  - {name: "BMBF Wasser:N (FONA) thematic call", type: funding, rolling: true, status: idea, note: "Watch FONA schedule; SENTRY/utility partner"}
+  - {name: "DBU environmental research", type: funding, rolling: true, status: idea, note: "Applied/monitoring angle; project sketch any time"}
+  - {name: "DOE EMSL FICUS user proposal", type: funding, deadline: "2026-12-31", status: drafting, note: "Multi-facility access; Mudunuru/Hassan-led"}
+  - {name: "NSERC Discovery / NrCAN (Canada)", type: funding, annual_month: 11, status: idea, note: "Canadian citizen route"}
+  - {name: "Argentina–Berlin bilateral mobility", type: funding, rolling: true, status: idea, note: "Bring an Argentine researcher; DAAD–CONICET; briefing drafted"}
+
+  # ---- AWARDS / PRIZES (early-career; most are NOMINATION-based) ----
+  - {name: "Heinz Maier-Leibnitz-Preis (DFG)", type: award, annual_month: 9, nomination: true, status: target, note: "Top German early-career prize; nominated by the institute — ask IGB to put you forward"}
+  - {name: "EGU Outstanding Early Career Scientist Award (Biogeosciences)", type: award, annual_month: 6, nomination: true, status: target, note: "Division award; needs nominators"}
+  - {name: "AGU Biogeosciences Early Career Award", type: award, annual_month: 4, nomination: true, status: target}
+  - {name: "ASLO Yentsch–Schindler Early Career Award", type: award, annual_month: 10, nomination: true, status: target, note: "Limnology & oceanography ECR"}
+  - {name: "ESA early-career award (e.g. Mercer)", type: award, annual_month: 9, nomination: true, status: idea}
+  - {name: "New Phytologist Tansley Medal (early career)", type: award, annual_month: 3, status: target, note: "Plant-sciences ECR — you can self-apply; fits your Plant Sciences PhD"}
+  - {name: "L'Oréal-UNESCO For Women in Science (Germany)", type: award, annual_month: 2, status: idea}
+  - {name: "Falling Walls — Young Innovator of the Year", type: award, annual_month: 9, status: idea}
+  - {name: "British Ecological Society early-career award", type: award, annual_month: 3, nomination: true, status: idea}
+  - {name: "Leibniz Association / IGB internal recognition", type: award, rolling: true, status: idea, note: "Watch for institute nominations"}
+
+  # ---- TIME-SENSITIVE (papers/service that act like deadlines) ----
+  - {name: "Am Nat major revision — 'The Ecology of Molecules'", type: paper, deadline: "2026-06-14", status: urgent}
+  - {name: "TREE Forum revision — 'Rare Molecules as Community Architects'", type: paper, deadline: "2026-06-27", status: urgent, note: "Minor revision, near-accepted"}
+  - {name: "Aquatic Sciences Meeting 2027 — session proposal", type: service, deadline: "2026-06-15", status: in_prep, note: "Co-organise w/ J. Wang"}
+  - {name: "Gordon Research Conference — registration", type: service, deadline: "2026-06-21", status: todo}
