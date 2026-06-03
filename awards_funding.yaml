@@ -20,11 +20,11 @@ items:
   - {name: "D-A-CH lead-agency (DFG+SNSF/FWF)", type: funding, rolling: true, status: idea, note: "Via Altermatt/UZH; no relocation"}
   - {name: "HFSP Research Grant — Early Career (LOI)", type: funding, annual_month: 3, status: idea, note: "VERIFIED 2026-06: 2027 LOI window passed (initiate 17 Mar / submit 26 Mar 2026); next ~Mar 2027. HARD reqs: intercontinental team (members in different countries), each ≤5yr from an independent post & PhD ≤10yr"}
   - {name: "Branco Weiss Fellowship", type: funding, deadline: "2027-01-15", status: likely_ineligible, note: "VERIFIED 2026-06: bars anyone who holds/held a FACULTY-EQUIVALENT post (asst prof/lecturer). A tenure-track Junior Group Leader is probably faculty-equivalent → LIKELY INELIGIBLE. Confirm w/ programme office before drafting. (PhD-age OK: ≤5yr pre-15 Jan 2027.)"}
-  - {name: "Water4All JTC (ecosystems & biodiversity)", type: funding, deadline: "2027-09-01", status: idea, note: "Build the transnational consortium now"}
-  - {name: "Biodiversa+ JTC (freshwater biodiversity)", type: funding, annual_month: 11, status: idea, note: "Next annual call"}
+  - {name: "Water4All JTC (ecosystems & biodiversity)", type: funding, deadline: "2027-09-01", status: idea, note: "VERIFIED 2026-06: your theme = 6th JTC 'Water for ecosystems & biodiversity', opens ~Sept 2027 (the Sept-2026 5th JTC is 'sustainable water management' — different theme). Build the transnational consortium now"}
+  - {name: "Biodiversa+ JTC (freshwater biodiversity)", type: funding, annual_month: 11, status: idea, note: "VERIFIED 2026-06: annual JTC, pre-proposals ~early Nov (current call BiodivConnect closed pre-prop 7 Nov 2025 / full 14 Apr 2026 — passed). Freshwater realm IS eligible; theme rotates yearly — watch the autumn-2026 call announcement"}
   - {name: "BMBF Wasser:N (FONA) thematic call", type: funding, rolling: true, status: idea, note: "Watch FONA schedule; SENTRY/utility partner"}
   - {name: "DBU environmental research", type: funding, rolling: true, status: idea, note: "Applied/monitoring angle; project sketch any time"}
-  - {name: "DOE EMSL FICUS user proposal", type: funding, deadline: "2026-12-31", status: drafting, note: "Multi-facility access; Mudunuru/Hassan-led"}
+  - {name: "DOE EMSL FICUS user proposal (FY2028)", type: funding, annual_month: 1, status: drafting, note: "VERIFIED 2026-06: FY2027 LOI window (Jan 6–Feb 4 2026) PASSED; next is FY2028, LOIs ~Jan 2027. Two tracks: FICUS Research (EMSL–JGI) & FICUS EMSL–ARM. Free multi-facility access, 24-mo projects; Mudunuru/Hassan-led"}
   - {name: "NSERC Discovery / NrCAN (Canada)", type: funding, annual_month: 11, status: idea, note: "Canadian citizen route"}
   - {name: "Argentina–Berlin bilateral mobility", type: funding, rolling: true, status: idea, note: "Bring an Argentine researcher; DAAD–CONICET; briefing drafted"}
 
@@ -34,7 +34,7 @@ items:
   - {name: "AGU Thomas Hilker Early Career Award (Biogeosciences)", type: award, annual_month: 4, nomination: true, status: target, note: "VERIFIED 2026-06: correct name is the Thomas Hilker ECR Award for Excellence in Biogeosciences; AGU honors nominations ~April (2026 cycle open). Needs nominators + support letters"}
   - {name: "ASLO Yentsch–Schindler Early Career Award", type: award, annual_month: 10, nomination: true, status: target, note: "VERIFIED 2026-06: limnology & oceanography ECR (≤12yr from terminal degree ✓). Recurring ~1 Oct (2026 cycle extended to 31 Oct 2025); needs a nomination letter + 3 endorsement letters"}
   - {name: "ESA early-career award (e.g. Mercer)", type: award, annual_month: 9, nomination: true, status: idea}
-  - {name: "New Phytologist Tansley Medal (early career)", type: award, annual_month: 3, status: target, note: "Plant-sciences ECR — you can self-apply; fits your Plant Sciences PhD"}
+  - {name: "New Phytologist Tansley Medal (early career)", type: award, annual_month: 11, status: target, note: "VERIFIED 2026-06: deadline ~1 Nov (2026 round closed 1 Nov 2025). SELF-APPLY (no nominator), needs 1 reference letter + 3 papers + 300-word statement. Eligibility 3-5yr post-PhD ⇒ your live windows: Nov 2026, 2027, maybe 2028. ★ Nov 2026 is a strong near-term target — fits your Plant Sciences PhD"}
   - {name: "L'Oréal-UNESCO For Women in Science (Germany)", type: award, annual_month: 2, status: idea}
   - {name: "Falling Walls — Young Innovator of the Year", type: award, annual_month: 9, status: idea}
   - {name: "British Ecological Society early-career award", type: award, annual_month: 3, nomination: true, status: idea}
