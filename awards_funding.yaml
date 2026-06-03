@@ -42,6 +42,7 @@ items:
 
   # ---- TIME-SENSITIVE (papers/service that act like deadlines) ----
   - {name: "Am Nat major revision — 'The Ecology of Molecules'", type: paper, deadline: "2026-06-14", status: urgent}
-  - {name: "TREE Forum revision — 'Rare Molecules as Community Architects'", type: paper, deadline: "2026-06-27", status: urgent, note: "Minor revision, near-accepted"}
+  - {name: "TREE Forum revision — 'Rare Molecules as Community Architects'", type: paper, deadline: "2026-06-27", status: urgent, note: "VERIFIED 2026-06 (decision 28 May, TREE-D-26-00121): revise by 27 Jun, NO re-review planned (near-accept), both referees positive. KEY: add a Network Analysis section (graph theory — hubs/nodes/links, ~ln101) + properly CREDIT Zimmer & Ferrer (2007) for coining 'keystone molecule' (Ref 1 priority-claim concern); rest minor (Paine-1969 two-system parallel optional)"}
+  - {name: "Perspective 'Closing the freshwater verification gap' → redirect to L&O Letters", type: paper, rolling: true, status: redirect, note: "Nature Water REJECTED 2 Jun 2026 (NATWATER-26-1302) — soft desk-reject (limited/commissioned slots; explicitly NOT a quality call). Co-authors Tetzlaff + A. McLeod; freshwater_prediction_L&OLetters.docx already in progress → redirect to L&O Letters"}
   - {name: "Aquatic Sciences Meeting 2027 — session proposal", type: service, deadline: "2026-06-15", status: in_prep, note: "Co-organise w/ J. Wang"}
   - {name: "Gordon Research Conference — registration", type: service, deadline: "2026-06-21", status: todo}
